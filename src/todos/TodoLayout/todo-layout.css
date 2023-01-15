@@ -1,0 +1,62 @@
+.todo_layout {
+    width: 40%;
+    margin: 0 auto;
+    transform: translateY(200px);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #7373735C;
+}
+
+.todo_header {
+    width: 100%;
+    margin-bottom: 50px;
+    background: #7373733C;
+    padding: 10px 3px;
+    border-bottom: 1px solid #7373735C;
+}
+
+.todo_body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.todo_input_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.todo_input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    top: 0
+}
+
+.todo_input input {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 18px;
+    padding-left: 4px;
+    color: #7373735C
+}
+
+.todo_input button {
+    position: absolute;
+
+    width: 100px;
+    height: 50px;
+    right: 0;
+    cursor: pointer;
+    background-color: #007bfe;
+    color: aliceblue;
+}
+.input_error {
+    border: 1px solid  red;
+}
+
+.todo_list {
+    padding: 100px 0 20px 0;
+}
